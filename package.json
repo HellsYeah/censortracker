@@ -8,8 +8,8 @@
   "scripts": {
     "dev": "webpack --progress --config webpack.config.js",
     "watch": "webpack --watch --progress --config webpack.config.js",
-    "lint": "eslint --ext=.js ./src/chrome/",
-    "lint:fix": "eslint --fix --ext=.js ./src/chrome/"
+    "lint": "eslint --ext .js,.json ./src/chrome/",
+    "lint:fix": "eslint --fix --ext .js,.json ./src/chrome/"
   },
   "dependencies": {},
   "devDependencies": {
